@@ -47,7 +47,7 @@ public class User {
         assert ZombieCounter.getInstance() != null;
 
         if (this.lastKilled + 1000L > System.currentTimeMillis()) {
-            this.sendActionbar(player, "§6§l+" + this.killedBetween + " §7Zombie");
+            this.sendActionbar(player, "§6§l+" + this.killedBetween + " §7" + ((this.killedBetween == 1) ? "Zombie" : "Zombies"));
             return;
         }
         this.killedBetween = 0;
