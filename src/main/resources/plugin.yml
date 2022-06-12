@@ -1,0 +1,6 @@
+name: 'ZombieCounter'
+version: '1.0.0A'
+author: 'Tinnto'
+main: 'net.sorcemc.zombiecounter.ZombieCounter'
+
+api-version: '1.8'
